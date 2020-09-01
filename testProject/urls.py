@@ -20,4 +20,5 @@ from testApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('page_1', views.page_1, name='page_1'),
 ]
