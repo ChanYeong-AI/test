@@ -7,3 +7,6 @@ def home(request):
 
 def page_1(request):
     return HttpResponse('page_1')
+
+def page_2(request):
+    return HttpResponse('page_2')
