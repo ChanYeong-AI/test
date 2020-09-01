@@ -10,3 +10,6 @@ def page_1(request):
 
 def page_2(request):
     return HttpResponse('page_2')
+
+def page_3(request):
+    return HttpResponse('added master')
